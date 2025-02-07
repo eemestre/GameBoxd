@@ -249,6 +249,7 @@ public class Home extends javax.swing.JFrame {
     
     private void removerJogo_menuItemActionPerformed(java.awt.event.ActionEvent evt) {                                                
         new RemoverJogoFrame();
+        jogos = c.getJogos();
     }
     
     private javax.swing.JMenu adm_menu;
