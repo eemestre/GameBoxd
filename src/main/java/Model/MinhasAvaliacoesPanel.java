@@ -159,7 +159,7 @@ public class MinhasAvaliacoesPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_jogo_tittleMouseEntered
 
     private void jogo_tittleMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jogo_tittleMouseExited
-        jogo_tittle.setText(jogo.getNome());
+        jogo_tittle.setText("Avaliação de "+jogo.getNome());
     }//GEN-LAST:event_jogo_tittleMouseExited
 
     private void jogo_iconMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jogo_iconMouseReleased

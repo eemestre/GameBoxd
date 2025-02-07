@@ -80,7 +80,7 @@ public class AddJogoFrame extends javax.swing.JFrame {
         });
 
         jLabel4.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        jLabel4.setText("Imagem (nome do arquivo na pasta images):");
+        jLabel4.setText("URL da imagem");
 
         nome_field.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
 
@@ -101,9 +101,7 @@ public class AddJogoFrame extends javax.swing.JFrame {
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel4))
+                            .addComponent(jLabel4)
                             .addComponent(img_field, javax.swing.GroupLayout.PREFERRED_SIZE, 466, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
                         .addComponent(btn_addJogo)

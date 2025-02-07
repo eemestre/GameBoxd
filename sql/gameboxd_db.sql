@@ -31,7 +31,7 @@ CREATE TABLE `avaliacoes` (
   `Comentario` varchar(511) DEFAULT NULL,
   `Nota` float NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `avaliacoes` (
 
 LOCK TABLES `avaliacoes` WRITE;
 /*!40000 ALTER TABLE `avaliacoes` DISABLE KEYS */;
-INSERT INTO `avaliacoes` VALUES (2,'xX_BruninGamer69_Xx','Hollow Knight','Prefiro joaninhas...',6),(3,'jubeiroco','Hollow Knight','Meu jogo favorito depois de roblox :P',8.5),(4,'japo','Minecraft','Eu. vio rerobrain',8),(5,'adm','Minecraft','Meu filho amou o jogo!',10),(7,'menck','Hollow Knight','topissimo',10),(8,'xX_BruninGamer69_Xx','Minecraft','relamente so tem blocos',10),(13,'adm','Hollow Knight','Muito fera',10),(14,'adm','Hollow Knight','Odeio esse jogo',1),(15,'adm','Minecraft','mega ruim',1),(16,'adm','Hollow Knight','Prometo que é a ultima',1),(17,'Lucas Pelegrina','Hollow Knight','Adoro esse jogo, besouros sao meus insetos favoritos! hahahahahaha',10),(18,'Lucas Pelegrina','Minecraft','Eu amo jogar com mods, saudades do meu pai',10),(21,'adm','Grand Theft Auto V','Muito bom!',10),(22,'adm','Astro Bot','como q isso ganhou game of the year',1),(23,'Eduardo','Astro Bot','realmente pessimo',1),(24,'teste','Astro Bot','Pessimo',3),(25,'Eduardo','Candy Crush','Bom demais',10);
+INSERT INTO `avaliacoes` VALUES (2,'xX_BruninGamer69_Xx','Hollow Knight','Prefiro joaninhas...',6),(3,'jubeiroco','Hollow Knight','Meu jogo favorito depois de roblox :P',8.5),(4,'japo','Minecraft','Eu. vio rerobrain',8),(5,'adm','Minecraft','Meu filho amou o jogo!',10),(7,'menck','Hollow Knight','topissimo',10),(8,'xX_BruninGamer69_Xx','Minecraft','relamente so tem blocos',10),(13,'adm','Hollow Knight','Muito fera',10),(14,'adm','Hollow Knight','Odeio esse jogo',1),(15,'adm','Minecraft','mega ruim',1),(16,'adm','Hollow Knight','Prometo que é a ultima',1),(17,'Lucas Pelegrina','Hollow Knight','Adoro esse jogo, besouros sao meus insetos favoritos! hahahahahaha',10),(18,'Lucas Pelegrina','Minecraft','Eu amo jogar com mods, saudades do meu pai',10),(21,'adm','Grand Theft Auto V','Muito bom!',10),(22,'adm','Astro Bot','como q isso ganhou game of the year',1),(23,'Eduardo','Astro Bot','realmente pessimo',1),(24,'teste','Astro Bot','Pessimo',3),(25,'Eduardo','Candy Crush','Bom demais',10),(26,'xX_BruninGamer69_Xx','Roblox','Copiazinha de mine fajuta',3.5);
 /*!40000 ALTER TABLE `avaliacoes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -66,7 +66,7 @@ CREATE TABLE `jogos` (
 
 LOCK TABLES `jogos` WRITE;
 /*!40000 ALTER TABLE `jogos` DISABLE KEYS */;
-INSERT INTO `jogos` VALUES ('Astro Bot','robo bem do sem graça','https://image.api.playstation.com/vulcan/ap/rnd/202406/0500/8f15268257b878597757fcc5f2c9545840867bc71fc863b1.png',1.66667),('Candy Crush','muita bala','https://upload.wikimedia.org/wikipedia/pt/a/a7/Candy_Crush_Saga_logo.png',10),('Dark Souls III','Muito dificil.','https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png',0),('Donkey Kong ','Macaco que pula barril','https://upload.wikimedia.org/wikipedia/pt/d/d4/Donkey_Kong_character.png',0),('Grand Theft Auto V','Jogo de ladrões','https://maisplay.com/wp-content/uploads/2023/03/a-historia-completa-de-gta-v-resumida-1320x742.jpg',10),('Hollow Knight','Jogo de um besouro safado sem vergonha.','https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1619987722169-VV6ZASHHZNRBJW9X0PLK/Key_Art_02_layeredjpg.jpg?format=1500w',6.64286),('Minecraft','Blocos e etc..','https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png',7.8),('Roblox','Tentou muito ser um novo mine','https://static.vecteezy.com/system/resources/previews/027/127/470/non_2x/roblox-logo-roblox-icon-transparent-free-png.png',0),('Subway Surfers','Vandalismo.','https://cdn-images.dzcdn.net/images/cover/a0a2784072361fda59c676ab5fd9794b/1900x1900-000000-80-0-0.jpg',0),('Super Mario Galaxy','Encanador no espaço. Yahoo!','https://upload.wikimedia.org/wikipedia/pt/b/b1/Super_Mario_Galaxy_capa.png',0),('teste','etstte','https://digest.med.br/wp-content/uploads/2024/07/no-image.jpg',0),('The Last Of Us','muito zumbi e muita coisa louca','https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png',0),('Valorant','Tirinho e poderzinho','https://images.seeklogo.com/logo-png/37/1/valorant-logo-png_seeklogo-379976.png',0);
+INSERT INTO `jogos` VALUES ('Astro Bot','robo bem do sem graça','https://image.api.playstation.com/vulcan/ap/rnd/202406/0500/8f15268257b878597757fcc5f2c9545840867bc71fc863b1.png',1.66667),('Candy Crush','muita bala','https://upload.wikimedia.org/wikipedia/pt/a/a7/Candy_Crush_Saga_logo.png',10),('Dark Souls III','Muito dificil.','https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/v8JlD8KcQUtTqaLBmpFnj1ESRR5zMkLk.png',0),('Donkey Kong ','Macaco que pula barril','https://upload.wikimedia.org/wikipedia/pt/d/d4/Donkey_Kong_character.png',0),('Grand Theft Auto V','Jogo de ladrões','https://maisplay.com/wp-content/uploads/2023/03/a-historia-completa-de-gta-v-resumida-1320x742.jpg',10),('Hollow Knight','Jogo de um besouro safado sem vergonha.','https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1619987722169-VV6ZASHHZNRBJW9X0PLK/Key_Art_02_layeredjpg.jpg?format=1500w',6.64286),('Minecraft','Blocos e etc..','https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png',7.8),('Roblox','Tentou muito ser um novo mine','https://static.vecteezy.com/system/resources/previews/027/127/470/non_2x/roblox-logo-roblox-icon-transparent-free-png.png',3.5),('Subway Surfers','Vandalismo.','https://cdn-images.dzcdn.net/images/cover/a0a2784072361fda59c676ab5fd9794b/1900x1900-000000-80-0-0.jpg',0),('Super Mario Galaxy','Encanador no espaço. Yahoo!','https://upload.wikimedia.org/wikipedia/pt/b/b1/Super_Mario_Galaxy_capa.png',0),('teste','etstte','https://digest.med.br/wp-content/uploads/2024/07/no-image.jpg',0),('The Last Of Us','muito zumbi e muita coisa louca','https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png',0),('Valorant','Tirinho e poderzinho','https://images.seeklogo.com/logo-png/37/1/valorant-logo-png_seeklogo-379976.png',0);
 /*!40000 ALTER TABLE `jogos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -106,7 +106,7 @@ CREATE TABLE `listas` (
   `Nome` varchar(255) NOT NULL,
   `FK_usuario_username` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -142,7 +142,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES ('a','a','a','a'),('adm','adm','adm','adm'),('Eduardo','eemestre','email','123'),('Victor Ehiti','japo','japones@japão.com','xingling'),('Julia Beiroco','jubeiroco','julia@gmail.com','julia'),('Lucas Pelegrina','luknhaWin_xx','pelegra@gmail.com','borabill'),('Vitor Menck','menck','vitor@menck.com','menck'),('teste','teste','teste','teste'),('Bruno Navarro','xX_BruninGamer69_Xx','bruningamer69@unect.com.br','borabill69');
+INSERT INTO `usuarios` VALUES ('a','a','a','a'),('adm','adm','adm','adm'),('Eduardo','eemestre','email','123'),('Victor Ehiti','japo','japones@japão.com','456'),('Julia Beiroco','jubeiroco','julia@gmail.com','julia'),('Lucas Pelegrina','luknhaWin_xx','pelegra@gmail.com','borabill'),('Vitor Menck','menck','vitor@menck.com','menck'),('teste','teste','teste','teste'),('Bruno Navarro','xX_BruninGamer_Xx','bruningamer@unect.com.br','borabill');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -155,4 +155,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-02-07 16:27:38
+-- Dump completed on 2025-02-07 16:48:25
